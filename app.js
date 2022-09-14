@@ -15,14 +15,14 @@ let remove = (a,b,c,d)=>{
 }
 liveBtn.addEventListener('click',()=>{
   if(liveBtn.classList.contains('active')){
-    alert('containe')
+    
   }else{
     remove(recordedBtn,liveBtn,liveCon,recordedCon)
   }
 })
 recordedBtn.addEventListener('click',()=>{
   if(recordedBtn.classList.contains('active')){
-    alert('containe')
+    
   }else{
     remove(liveBtn,recordedBtn,recordedCon,liveCon)
   }

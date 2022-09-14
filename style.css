@@ -70,6 +70,7 @@
 .course-title{
     position: relative;
     cursor: pointer;
+    user-select: none;
 }
 .course-title::after{
     content: '';
@@ -117,7 +118,17 @@
     background-color: #F8F9FA;
     border-radius: 5px;
 }
-@media (max-width:600px) {
+@media (max-width:2000px) {
+    .owl-next{
+        position: absolute;
+        right: -35px;
+        top: 30%;
+    }
+}
+@media (max-width:720px) {
+  .owl-carousel{
+    width: 300px;
+  }
     .owl-next{
         position: absolute;
         right: -35px;
